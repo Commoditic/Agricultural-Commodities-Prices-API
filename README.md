@@ -22,7 +22,7 @@ The users of Commoditic's agricultural commodities prices data are of diverse ba
 <li><strong>Cannola</strong></li>
 <li><strong>Sunflower oil</strong></li>
 <li><strong>Repeseed oil</strong></li>
-li><strong>Sugar</strong></li>
+<li><strong>Sugar</strong></li>
 <li><strong>Wool</strong></li>
 <li><strong>Rubber</strong></li>
 <li><strong>Lumber</strong></li>
@@ -39,20 +39,15 @@ li><strong>Sugar</strong></li>
 Our <a href="https://commoditic.com/documentation/" rel="nofollow">documentation</a> includes input API filtering parameters, output response objects with explanation of their meanings. Clear request and response examples are given on the documentation page.
 
 <p><strong>API endpoints<p>
-<p><a href=https://commoditic.com/api/v1/commodities?key=[API-KEY]&category=agriculture</a></p>
+<p><a href="https://commoditic.com/api-documentation">https://commoditic.com/api/v1/commodities?key=[API-KEY]&category=agriculture</a></p>
 
 
-
-
-
-
-
-
-
-
-
-
- "category": "Agriculture",
+     "status": {
+        "message": "Success"
+    },
+    "results": [
+        {
+           "category": "Agriculture",
             "Name": "Cocoa"
             "Unit": "USD/Lbs"
             "Price": "218.15"
@@ -62,15 +57,10 @@ Our <a href="https://commoditic.com/documentation/" rel="nofollow">documentation
             "Monthly Percentage Change": "-6.41%"
             "Yearly Percentage Change": "23.95%"
             "Date": "2022.07.20"
-
-
-
-
-
-
-
-
-
+        }
+    [
+ 
+ 
 
 
 <h2>Customer support</h2>
