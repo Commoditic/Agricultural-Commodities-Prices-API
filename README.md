@@ -39,9 +39,8 @@ The users of Commoditic's agricultural commodities prices data are of diverse ba
 Our <a href="https://commoditic.com/documentation/" rel="nofollow">documentation</a> includes input API filtering parameters, output response objects with explanation of their meanings. Clear request and response examples are given on the documentation page.
 
 <p><strong>API endpoints<p>
-<p><a href="https://commoditic.com/api-documentation">https://commoditic.com/api/v1/commodities?key=[API-KEY]&category=agriculture</a></p>
-
-
+<p><a href="https://commoditic.com/documentation/">https://api.commoditic.com/api/v1/commodities?key=[API-KEY]&category=&category=agriculture </a></p>
+ 
      "status": {
         "message": "Success"
     },
