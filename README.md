@@ -39,14 +39,14 @@ The users of Commoditic's agricultural commodities prices data are of diverse ba
 Our <a href="https://commoditic.com/documentation/" rel="nofollow">documentation</a> includes input API filtering parameters, output response objects with explanation of their meanings. Clear request and response examples are given on the documentation page.
 
 <p><strong>API endpoints<p>
-<p><a href="https://commoditic.com/agricultural-commodities-prices-api/">https://api.commoditic.com/api/v1/commodities?key=[API-KEY]&category=agricultural </a></p>
+<p><a href="https://commoditic.com/agricultural-commodities-prices-api/">https://api.commoditic.com/api/v1/commodities?key=[API-KEY]&name=agricultural </a></p>
  
      "status": {
         "message": "Success"
     },
     "results": [
         {
-           "category": "Agriculture",
+           "category": "Agricultural",
             "Name": "Cocoa"
             "Unit": "USD/Lbs"
             "Price": "218.15"
@@ -58,6 +58,63 @@ Our <a href="https://commoditic.com/documentation/" rel="nofollow">documentation
             "Date": "2022.07.20"
         }
     [
+ 
+ 
+ <p><a href="https://commoditic.com/agricultural-commodities-prices-api/">https://api.commoditic.com/api/v1/commodities?key=[API-KEY]&category=agricultural </a></p>
+ 
+    "status": {
+        "message": "Success"
+    },
+    "results": [
+        {
+            "category": "Agricultural",
+            "Name": "Cocoa"
+            "Unit": "USD/Lbs"
+            "Price": "218.15"
+            "Day Price Change": "2.25"
+            "Day Percentage Change": "-1.68%"
+            "Weekly Percentage Change": "3.98%"
+            "Monthly Percentage Change": "-6.41%"
+            "Yearly Percentage Change": "23.95%"
+            "Date": "2022.07.20"
+            
+            
+            "category": "Agricultural,
+            "Name": "Rubber"
+            "Unit": "USD Cents/Kg"
+            "Price": "137.90"
+            "Day Price Change": "0.20"
+            "Day Percentage Change": "0.15%"
+            "Weekly Percentage Change": "2.22%"
+            "Monthly Percentage Change": "5.51%"
+            "Yearly Percentage Change": "-19.26%"
+            "Date": "2022.10.07"
+            
+            
+             "category": "Agricultural,
+            "Name": "Sunflower oil"
+            "Unit": "USD/T"
+            "Price": "1250.00"
+            "Day Price Change": "-25.00"
+            "Day Percentage Change": "-1.96%"
+            "Weekly Percentage Change": "-1.19%"
+            "Monthly Percentage Change": "-8.09%"
+            "Yearly Percentage Change": "-7.41%"
+            "Date": "2022.10.06"
+            
+        }
+    [
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  
  
 
