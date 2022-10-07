@@ -56,8 +56,7 @@ Our <a href="https://commoditic.com/documentation/" rel="nofollow">documentation
             "Monthly Percentage Change": "-6.41%"
             "Yearly Percentage Change": "23.95%"
             "Date": "2022.07.20"
-        }
-    [
+    
  
  
  <p><a href="https://commoditic.com/agricultural-commodities-prices-api/">https://api.commoditic.com/api/v1/commodities?key=[API-KEY]&category=agricultural </a></p>
@@ -102,12 +101,7 @@ Our <a href="https://commoditic.com/documentation/" rel="nofollow">documentation
             "Yearly Percentage Change": "-7.41%"
             "Date": "2022.10.06"
             
-        }
-    [
- 
- 
- 
- 
+  
  
  
  
